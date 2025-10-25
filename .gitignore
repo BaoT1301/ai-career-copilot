@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+venv/
+
+# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database
+*.json
+career_copilot_db.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+*.egg-info/
