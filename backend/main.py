@@ -27,7 +27,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",  # Local development
         "https://*.vercel.app",    # Vercel deployments
-        "https://your-app-name.vercel.app"  # Your specific domain (update later)
+        "https://ai-career-copilot-nine.vercel.app"  # Your specific domain (update later)
     ],
     allow_credentials=True,
     allow_methods=["*"],
