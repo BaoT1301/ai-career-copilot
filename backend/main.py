@@ -25,9 +25,11 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",  # Local development
-        "https://*.vercel.app",    # Vercel deployments
-        "https://ai-career-copilot-nine.vercel.app"  # Your specific domain (update later)
+        "http://localhost:5173",
+        "https://*.vercel.app",   
+        "https://ai-career-copilot-nine.vercel.app",
+        "https://aicareercopilot.net",                   
+        "https://www.aicareercopilot.net",  
     ],
     allow_credentials=True,
     allow_methods=["*"],
